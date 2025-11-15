@@ -62,7 +62,7 @@ def send_welcome(message):
     bot.reply_to(message, "Привет! Готов? Если нужно больше информации то напиши /help")
 
 @bot.message_handler(commands=['help'])
-def send_whelp(message):
+def send_help(message):
     bot.reply_to(message, "Привет! Я бот-помощник по программированию.  Я не дам готовый ответ, но помогу тебе подумать над задачей.  Просто опиши свою проблему.")
 
 
